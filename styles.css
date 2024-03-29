@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+}
+
+* {
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightgray;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+/* .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+
+.main {
+    width: 100%;
+  padding: 0 3rem;
+}
+.container{
+    max-width: 60rem;
+  margin: 5rem auto;
+    /* margin: 100px auto; */
+     /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 150px; */
+}
+
+form {
+    background-color: #9d0191;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+    background-color: #9d0191;
+    width: 70%;
+    height: 50px;
+    border-bottom:1px solid #fff;
+    margin-right: 10px;
+    padding-left: 20px;
+
+}
+
+input::placeholder {
+    color: #eee;
+    font-size: 20px;
+
+}
+
+.add {
+    background-color: #db6400;
+    color: #fff;
+    height: 50px;
+    width: 70px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 20px;
+    color: #db6400;
+    margin: 10px auto 10px auto;
+}
+
+
+
+ol {
+    width: 100%;
+}
+
+ol li{
+    padding-block: 10px ;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    padding-left: 10px;
+    margin: 10px 0 10px 0;
+}
+
+ol li:nth-child(odd) {
+
+    background-color: white;
+    color: black;
+}
+
+hr {
+    width: 100%;
+    background-color: #fff;
+    height: 0.2rem;
+}
+
+ li button{
+    color: red;
+    /* height: 10px; */
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 520px;
+}
+
+li span {
+    color: gray;
+    /* height: 10px; */
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 550px;
+}
+
+.clear-tasks {
+ background-color: #fff;
+ color: black;
+ height: 50px;
+width: 100px;
+margin: 10px auto 10px auto;
+border: 1px solid grey;
+font-size: 15px;
+cursor: pointer;
+}
+
+
+
+
+
